@@ -8,8 +8,9 @@ namespace ConsoleApplication3_2
         {
             const string MyName = "Alexandr";
             Console.WriteLine(MyName);
-            Console.WriteLine("I am \n 23 years old");
-            Console.WriteLine("\t I live in St. Petersburg");
+            Console.WriteLine("I am 23 years old");
+            Console.WriteLine("I live in St. Petersburg");
+            Console.WriteLine("\u0023");
             Console.ReadKey();
         }
     }
