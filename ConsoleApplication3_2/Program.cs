@@ -6,8 +6,7 @@ namespace ConsoleApplication3_2
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Alexandr";
+            const string MyName = "Alexandr";
             Console.WriteLine(MyName);
             Console.ReadKey();
         }
