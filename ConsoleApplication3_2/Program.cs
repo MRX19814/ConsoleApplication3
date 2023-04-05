@@ -9,6 +9,7 @@ namespace ConsoleApplication3_2
             string MyName;
             MyName = "Alexandr";
             Console.WriteLine(MyName);
+            Console.ReadKey();
         }
     }
 }
