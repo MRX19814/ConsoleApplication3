@@ -6,11 +6,15 @@ namespace ConsoleApplication3_2
     {
         static void Main(string[] args)
         {
-            const string MyName = "Alexandr";
-            Console.WriteLine(MyName);
-            Console.WriteLine("I am 23 years old");
-            Console.WriteLine("I live in St. Petersburg");
-            Console.WriteLine("\u0023");
+            string MyName = "Alexandr";
+            byte MyAge = 23;
+            bool IPate = false;
+            double ShoesSize = 45.5;
+
+            Console.WriteLine("My name " + MyName);
+            Console.WriteLine("My age " + MyAge);
+            Console.WriteLine("Do you have any pets? " + IPate);
+            Console.WriteLine("My foot size " + ShoesSize);
             Console.ReadKey();
         }
     }
