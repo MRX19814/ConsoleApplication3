@@ -18,21 +18,14 @@ namespace ConsoleApplication3_2
             Console.ReadKey();
         } */
 
-        public static void Main(string[] args) 
+        public static void Main(string[] args)
         {
-            DaysOfWeek MyFavoriteDay;
+            string MyName = "Александр";
+            Console.WriteLine("Привет, Мир");
+            Console.WriteLine();
+            Console.WriteLine($"Меня зовут {MyName}");
 
-            MyFavoriteDay = DaysOfWeek.Friday;
-            Console.WriteLine(MyFavoriteDay);
             Console.ReadKey();
-        }
-
-        enum DaysOfWeek : byte
-        {
-            Tuesday,
-            Monday,
-            Wensdey,
-            Friday
         }
     }
 }
