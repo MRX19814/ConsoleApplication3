@@ -4,7 +4,7 @@ namespace ConsoleApplication3_2
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             string MyName = "Alexandr";
             byte MyAge = 23;
@@ -16,6 +16,23 @@ namespace ConsoleApplication3_2
             Console.WriteLine("Do you have any pets? " + IPate);
             Console.WriteLine("My foot size " + ShoesSize);
             Console.ReadKey();
+        } */
+
+        public static void Main(string[] args) 
+        {
+            DaysOfWeek MyFavoriteDay;
+
+            MyFavoriteDay = DaysOfWeek.Friday;
+            Console.WriteLine(MyFavoriteDay);
+            Console.ReadKey();
+        }
+
+        enum DaysOfWeek : byte
+        {
+            Tuesday,
+            Monday,
+            Wensdey,
+            Friday
         }
     }
 }
