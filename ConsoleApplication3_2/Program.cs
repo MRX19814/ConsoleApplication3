@@ -4,7 +4,7 @@ namespace ConsoleApplication3_2
 {
     class Program
     {
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             string MyName = "Alexandr";
             byte MyAge = 23;
@@ -16,16 +16,6 @@ namespace ConsoleApplication3_2
             Console.WriteLine("Do you have any pets? " + IPate);
             Console.WriteLine("My foot size " + ShoesSize);
             Console.ReadKey();
-        } */
-
-        public static void Main(string[] args)
-        {
-            string MyName = "Александр";
-            Console.WriteLine("Привет, Мир");
-            Console.WriteLine();
-            Console.WriteLine($"Меня зовут {MyName}");
-
-            Console.ReadKey();
-        }
+        } 
     }
 }
