@@ -2,40 +2,24 @@
 
 namespace ConsoleApplication3_2
 {
-    /*class Program
-    {
-        static void Main(string[] args)
-        {
-            string MyName = "Alexandr";
-            byte MyAge = 23;
-            bool IPate = false;
-            double ShoesSize = 45.5;
-
-            Console.WriteLine("My name " + MyName);
-            Console.WriteLine("My age " + MyAge);
-            Console.WriteLine("Do you have any pets? " + IPate);
-            Console.WriteLine("My foot size " + ShoesSize);
-            Console.ReadKey();
-        } 
-    }*/
-
     class MainClass
     {
         public static void Main(string[] args)
         {
 
-            Console.WriteLine("What is your name?");
+            Console.Write("Enter your name: ");
             string name = Console.ReadLine();
-            
 
+            Console.Write("Enter your age: ");
             var age = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Your name is {0} and age is {1} ", name, age);
 
-            Console.Write("What is your favorite day of week? ");
+            Console.Write("Enter your birthdate: ");
 
-            var day = (DayOfWeek)int.Parse(Console.ReadLine());
-            Console.WriteLine("Your favorite day is {0}", day);
-
+            var birthdate = Console.ReadLine();
+            Console.Write("Your birthdate is {0}", birthdate);
+            Console.ReadKey();
         }
     }
 }
